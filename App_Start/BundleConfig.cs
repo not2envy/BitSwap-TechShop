@@ -18,7 +18,7 @@ namespace BitSwap_TechShop
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
 
-            bundles.Add(new StyleBundle("~/bundles/css")
+            bundles.Add(new StyleBundle("~/Content/styles")
                 .Include(
                       "~/Content/styles/bootstrap4/bootstrap.min.css",
                       "~/Content/plugins/font-awesome-4.7.0/css/font-awesome.min.css",

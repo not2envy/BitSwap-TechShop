@@ -1,19 +1,23 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - BitSwap TechShop</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
+    <title>BitSwap</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Sublime project">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href=@Url.Content("/Content/styles/bootstrap4/bootstrap.min.css")>
+    <link href=@Url.Content("/Content/plugins/font-awesome-4.7.0/css/font-awesome.min.css") rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href=@Url.Content("/Content/plugins/OwlCarousel2-2.2.1/owl.carousel.css")>
+    <link rel="stylesheet" type="text/css" href=@Url.Content("/Content/plugins/OwlCarousel2-2.2.1/owl.theme.default.css")>
+    <link rel="stylesheet" type="text/css" href=@Url.Content("/Content/plugins/OwlCarousel2-2.2.1/animate.css")>
+    <link rel="stylesheet" type="text/css" href=@Url.Content("/Content/styles/main_styles.css")>
+    <link rel="stylesheet" type="text/css" href=@Url.Content("/Content/styles/responsive.css")>
 </head>
 <body>
     <div class="container body-content">
+
         @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - BitSwap TechShop</p>
-        </footer>
     </div>
 </body>
 </html>
